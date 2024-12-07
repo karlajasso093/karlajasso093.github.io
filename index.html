@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LUNARA</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .icono-centrado {
+    display: flex;
+    flex-direction: column; /* Estructura vertical */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px; /* Espaciado entre elementos */
+    color: white; /* Puedes ajustar el color según tu diseño */
+}
+
+.icono {
+    width: 80px; /* Tamaño ajustable */
+    height: 80px;
+    border-radius: 50%; /* Hace el ícono redondeado */
+    object-fit: cover; /* Ajusta la imagen dentro del círculo */
+    border: 2px solid white; /* Opcional: borde blanco */
+}
+
+.texto-logo .texto-verde {
+    font-size: 36px; /* Tamaño grande para el primer texto */
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto-logo .texto-lunara {
+    font-size: 28px; /* Tamaño ajustado para el subtítulo */
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="encabezado">
+    <div class="contenedor-navegacion">
+        <div class="contenido-navegacion contenedor">
+            <div class="logo">
+                <h2>Lunara</h2>
+            </div>
+            
+            <div class="hamburguesa">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contenido-header">
+    <div class="contenedor-encabezado">
+        <div class="texto-encabezado">
+            <div class="icono-centrado">
+                <img src="icono.jpeg" alt="Icono" class="icono">
+                <div class="texto-logo">
+                    <h2 class="texto-verde">Emprendimiento Verde</h2>
+                    <h3 class="texto-lunara">Lunara</h3>
+                </div>
+            </div>
+        </div>
+        <video autoplay loop muted>
+            <source src="bg_video.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+</div>
+</header>
+
+
+    <section class="menu contenedor">
+    <h2 class="texto-platillos">Tés Populares</h2>
+    <div class="botones-platillos">
+    </div>
+    <div class="platillos">
+        <!-- Té Verde -->
+        <div class="platillo" data-te="verde">
+            <img data-src="img1.jpeg" alt="Té Verde">
+            <h2>Té Verde</h2>
+            <p>- Hojas de té verde de alta calidad.<br>- Rico en antioxidantes naturales.<br>- Sin aditivos ni conservantes.<br>- Aporta energía de forma natural.</p>
+            <div class="precio">
+                <p>$15.00</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Manzanilla -->
+        <div class="platillo" data-te="manzanilla">
+            <img data-src="img2.jpeg" alt="Té de Manzanilla">
+            <h2>Té de Manzanilla</h2>
+            <p>- Flores de manzanilla deshidratadas.<br>- Libre de cafeína.<br>- Sin azúcares añadidos.<br>- Ideal para relajación y mejorar el sueño.</p>
+            <div class="precio">
+                <p>$12.00</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té Negro -->
+        <div class="platillo" data-te="negro">
+            <img data-src="img3.jpeg" alt="Té Negro">
+            <h2>Té Negro</h2>
+            <p>- Hojas de té negro fermentadas.<br>- Alto contenido de cafeína.<br>- Sabor fuerte e intenso.<br>- Perfecto para tomar con leche o limón.</p>
+            <div class="precio">
+                <p>$14.00</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Menta -->
+        <div class="platillo" data-te="menta">
+            <img data-src="img4.jpeg" alt="Té de Menta">
+            <h2>Té de Menta</h2>
+            <p>- Hojas de menta fresca.<br>- Sin azúcares añadidos.<br>- Sabor refrescante y natural.<br>- Ayuda a mejorar la digestión.</p>
+            <div class="precio">
+                <p>$13.00</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Canela -->
+        <div class="platillo" data-te="canela">
+            <img data-src="img5.jpeg" alt="Té de Canela">
+            <h2>Té de Canela</h2>
+            <p>- Trozos de canela natural.<br>- Libre de cafeína.<br>- Sin conservantes ni aditivos.<br>- Sabor cálido y reconfortante.</p>
+            <div class="precio">
+                <p>$15.50</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té con Limón -->
+        <div class="platillo" data-te="limon">
+            <img data-src="img6.jpeg" alt="Té con Limón">
+            <h2>Té con Limón</h2>
+            <p>- Mezcla perfecta de té y limón natural.<br>- Refrescante y revitalizante.<br>- Sin conservantes ni colorantes artificiales.</p>
+            <div class="precio">
+                <p>$13.50</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Jengibre -->
+        <div class="platillo" data-te="jengibre">
+            <img data-src="img7.jpeg" alt="Té de Jengibre">
+            <h2>Té de Jengibre</h2>
+            <p>- Jengibre fresco y natural.<br>- Con propiedades antiinflamatorias y digestivas.<br>- Sin cafeína.</p>
+            <div class="precio">
+                <p>$14.50</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Frambuesa -->
+        <div class="platillo" data-te="frambuesa">
+            <img data-src="img8.jpeg" alt="">
+            <h2>Té de Frambuesa</h2>
+            <p>- Dulce, con frambuesas naturales.<br>- Con un toque de frescura.<br>- Sin azúcares añadidos.</p>
+            <div class="precio">
+                <p>$15.00</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Cereza -->
+        <div class="platillo" data-te="cereza">
+            <img data-src="img9.jpeg" alt="">
+            <h2>Té de Cereza</h2>
+            <p>- Hecho con cerezas naturales.<br>- Un equilibrio dulce y ácido.<br>- Perfecto para el descanso nocturno.</p>
+            <div class="precio">
+                <p>$15.50</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+
+        <!-- Té de Romero -->
+        <div class="platillo" data-te="romero">
+            <img data-src="img10.jpeg" alt="">
+            <h2>Té de Romero</h2>
+            <p>- Con propiedades antioxidantes.<br>- Muy beneficioso para la memoria y el bienestar.</p>
+            <div class="precio">
+                <p>$12.50</p>
+                <button><i class="fas fa-shopping-basket"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <div class="separador">
+    <div class="contenido-separador contenedor">
+        <h2>Tés para empezar el día</h2>
+        <p>Comienza tu mañana con un té saludable y lleno de sabor.</p>
+        <a href="" class="btn btn-verde">Explorar Tés</a>
+    </div>
+</div>
+
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Av. Constitución de 1857 No. 38, Col. Benito Juárez C.P. 78437 Soledad de Graciano Sánchez, S.L.P</p>
+            <p><i class="fas fa-envelope"></i> luzvalerialoredo@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>+52 1 444 380 8312</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+52 123 456 7890" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+            
+        </form>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
